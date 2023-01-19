@@ -12,6 +12,6 @@
 
         //Navigation Property
 
-        public IEnumerable<Walk> Walks { get; set; }
+        public IEnumerable<Walk> walks { get; set; }
     }
 }
