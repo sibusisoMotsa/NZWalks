@@ -50,10 +50,10 @@ namespace NZWalks.API.Controllers
             Models.DTO.AddWalkDifficultyRequest addWalkDifficultyRequest)
         {
             //Validate data on call
-            if (!ValidateAddWalksDifficultyAsync(addWalkDifficultyRequest))
-            {
-                return BadRequest(ModelState);
-            }
+            //if (!ValidateAddWalksDifficultyAsync(addWalkDifficultyRequest))
+            //{
+            //    return BadRequest(ModelState);
+            //}
             //Convert DTO to Domain model
             var walkDifficultyDomain = new Models.Domain.WalkDifficulty
             {
